@@ -19,7 +19,7 @@ console.log(document.forms[0]);
 console.log(document.Russell); // Accesses form named "Russell", above.
 console.log(document.Russell.firstname); 
 console.log(document.getElementsByName('subscribe')[0]); 
-console.log(document.getElementsByName('subscribe')); 
+//console.log(document.getElementsByName('subscribe')); // Wrong way
 document.getElementsByName('subscribe')[0].checked = false;
 console.log(document.getElementsByName('subscribe')[0].checked); // false
 </script>
