@@ -6,3 +6,5 @@ console.error
 console.group
 console.groupEnd
 console.time
+
+document.forms can be used to access form elements.

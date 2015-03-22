@@ -1,0 +1,22 @@
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<body>
+<div id ="russell" class="russell">
+<ol>
+<li>a</li>
+<li><a href="http://www.example.com">b</a></li>
+<li>c</li>
+<li>d</li>
+</ol>
+</div>
+<script>
+console.log(document.getElementById('russell'));
+console.log(document.getElementsByTagName('ol'));
+console.log(document.getElementsByClassName('russell'));
+console.log(document.querySelector('ol'));
+console.log(document.querySelector('ol').childNodes);
+console.log(document.querySelectorAll('#russell ol'));
+console.log(document.querySelectorAll('#russell li>href'));
+</script>
+</body>
+</html>
