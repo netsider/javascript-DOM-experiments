@@ -8,3 +8,5 @@ console.groupEnd
 console.time
 
 document.forms can be used to access form elements.
+
+Everything in the DOM is a node.
