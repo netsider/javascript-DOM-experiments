@@ -7,17 +7,18 @@
 		<li><a href="http://www.example.com">a</a></li>
 		<li><a href="http://www.example.com">b</a></li>
 		<li><a href="http://www.example.com">c</a></li>
-		<li><a href="http://www.example.com">d</a></li>
+		<li data-li="datali"><a href="http://www.example.com" data-russ="datahref">d</a></li>
+		<li><a href="http://www.example.com"><img src="jquery.gif"></a></li>
 		</ol>
 		</div>
 		<form>
-		<input type="radio" />
-		<input type="checkbox" />
+		<input type="radio" checked value="yes"/>
+		<input type="checkbox" checked value="yes"/>
+		<input type="submit" name="submit">
 		</form>
 	</article>
 <script>
-var myNode = document.querySelector('.russell li');
-var myNodes = document.querySelectorAll('.russell li')[0];
+var myNode = document.querySelectorAll('.russell li a');
 
 </script>
 </body>
